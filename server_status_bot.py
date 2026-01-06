@@ -293,6 +293,7 @@ def main():
         monitoring_active = False
         monitoring_thread.join(timeout=2)
         print("\n👋 Program terminated cleanly")
+# SUS
 
 if __name__ == "__main__":
     main()
